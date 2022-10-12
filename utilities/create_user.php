@@ -1,6 +1,6 @@
 <?php
 
-include("../koneksi.php");
+include("koneksi.php");
 
 $username = "marvin";
 $password = password_hash("coba", PASSWORD_DEFAULT);
