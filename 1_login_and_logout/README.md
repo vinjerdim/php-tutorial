@@ -11,11 +11,11 @@
 5. Buka folder `cms` menggunakan _text editor_
 ![sublime](./sublime_text.png)
 ![vscode](./vscode.png)
-6. Buat file-file berikut di folder `cms` mengikuti contoh di Github:
-    i. `koneksi.php`
-    ii. `login.php`
-    iii. `validasi.php`
-    iv. `session.php`, `navbar.php`, `index.php`
+6. Buat file-file berikut di folder `cms` mengikuti contoh di Github:<br>
+    i. `koneksi.php`<br>
+    ii. `login.php`<br>
+    iii. `validasi.php`<br>
+    iv. `session.php`, `navbar.php`, `index.php`<br>
     v. `logout.php`
 
 ## _Testing_
@@ -33,7 +33,10 @@
 1. Buka alamat http://localhost/cms/login.php
 ![login_page](./login_page.png)
 2. Masukkan username dan password yang sudah tersimpan di phpmyadmin
-3. Tekan Login. (_Note_: seharusnya akan muncul halaman `index.php`)
+3. Tekan Login.<br>
+(_Note_: seharusnya akan muncul halaman `index.php`)
 ![index_page](./index_page.png)
-4. Tekan Logout. (_Note_: seharusnya akan kembali ke halaman `login.php`)
-5. Untuk tes keamanan, coba buka alamat http://localhost/cms/index.php setelah logout. (_Note_: Website yang aman, seharusnya tidak akan bisa membuka halaman `index.php` setelah logout.)
+4. Tekan Logout.<br>
+(_Note_: seharusnya akan kembali ke halaman `login.php`)
+5. Untuk tes keamanan, coba buka alamat http://localhost/cms/index.php setelah logout.<br>
+(_Note_: Website yang aman, seharusnya tidak akan bisa membuka halaman `index.php` setelah logout.)
