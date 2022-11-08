@@ -1,6 +1,6 @@
-# _Login and Logout_
+# _CRUD User_
 
-## _Coding_
+## Fitur 'Melihat Daftar User'
 
 1. Buka *folder lokasi instal XAMPP* (biasanya di `C:\xampp`, bisa berbeda-beda tiap komputer)
 ![folder_xampp](./assets/xampp_1.png)

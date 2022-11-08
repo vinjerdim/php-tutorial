@@ -15,8 +15,10 @@
     i. `koneksi.php`<br>
     ii. `login.php`<br>
     iii. `validasi.php`<br>
-    iv. `session.php`, `navbar.php`, `index.php`<br>
-    v. `logout.php`
+    iv. `session.php`<br>
+    v. `navbar.php`<br>
+    vi. `index.php`<br>
+    vii. `logout.php`
 
 ## _Testing_
 

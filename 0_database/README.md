@@ -7,7 +7,7 @@
 ![table_users](./assets/1_table_users.png)
     a. Set `AUTO_INCREMENT` untuk kolom `id`<br>
     b. Set `UNIQUE` untuk kolom `username`<br>
-    c. Set tipe kolom `level` menjadi `ENUM`, edit ENUM values-nya menjadi `admin` dan `siswa`
+    c. Set tipe kolom `level` menjadi `ENUM`, edit ENUM values-nya menjadi `admin` dan `siswa`<br>
     d. Set kolom `created_at` agar nilai _default_-nya `CURRENT_TIMESTAMP`<br>
     e. Set kolom `updated_at` agar nilai _default_-nya `NULL`<br>
     f. Set `on update CURRENT_TIMESTAMP` untuk kolom `updated_at`<br>
