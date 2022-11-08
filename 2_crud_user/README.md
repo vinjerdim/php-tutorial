@@ -1,42 +1,62 @@
 # _CRUD User_
 
-## Fitur 'Melihat Daftar User'
+## Cek Ulang Fitur Login
 
-1. Buka *folder lokasi instal XAMPP* (biasanya di `C:\xampp`, bisa berbeda-beda tiap komputer)
-![folder_xampp](./assets/xampp_1.png)
-2. Buka folder `htdocs`
-![folder_htdocs](./assets/xampp_2.png)
-3. Buat folder `cms` di dalam `htdocs`
-4. Buka text editor (Visual Studio Code _atau_ Sublime Text)
-5. Buka folder `cms` menggunakan _text editor_
-![sublime](./assets/sublime_text.png)
-![vscode](./assets/vscode.png)
-6. Buat file-file berikut di folder `cms` mengikuti contoh di Github:<br>
+1. Buka folder `cms` yang sudah dibuat di tutorial [1_login_and_logout](../1_login_and_logout)
+2. Cek ulang file-file berikut ini sambil melakukan testing:<br>
     i. `koneksi.php`<br>
     ii. `login.php`<br>
     iii. `validasi.php`<br>
-    iv. `session.php`, `navbar.php`, `index.php`<br>
-    v. `logout.php`
+    iv. `session.php`<br>
+    v. `navbar.php`<br>
+    vi. `index.php`<br>
+    vii. `logout.php`
 
-## _Testing_
+## Fitur 'Melihat Daftar User'
 
-### Membuat user baru
-1. Buat file `create_user.php` di folder `cms`, sesuai contoh di Github (folder `utilities`)
-2. Edit bagian `$username` dan `$password` dengan username dan password sesuai keinginan
-![edit_file_create_user](./assets/edit_create_user.png)
-3. Buka browser (Google Chrome, Edge, atau Firefox)
-4. Buka alamat http://localhost/cms/create_user.php
-5. Cek table `users` di phpmyadmin, seharusnya ada 1 data yang tersimpan
-![users_phpmyadmin](./assets/users_phpmyadmin.png)
+1. Buat folder `users` di dalam folder `cms`
+![users_folder](./assets/users_folder.png)
+2. Buat file-file berikut ini di folder `users` mengikuti contoh di Github:<br>
+    i. `index.php`
 
-### Tes login dan logout
-1. Buka alamat http://localhost/cms/login.php
-![login_page](./assets/login_page.png)
-2. Masukkan username dan password yang sudah tersimpan di phpmyadmin
-3. Tekan Login.<br>
-(_Note_: seharusnya akan muncul halaman `index.php`)
-![index_page](./assets/index_page.png)
-4. Tekan Logout.<br>
-(_Note_: seharusnya akan kembali ke halaman `login.php`)
-5. Untuk tes keamanan, coba buka alamat http://localhost/cms/index.php setelah logout.<br>
-(_Note_: Website yang aman, seharusnya tidak akan bisa membuka halaman `index.php` setelah logout.)
+### _Testing_
+
+1. Buka alamat http://localhost/cms/users/index.php, akan muncul tampilan berikut ini:<br>
+![users_index](./assets/users_index.png)
+2. Klik link Users di menu, seharusnya akan muncul tampilan yang sama
+
+## Fitur 'Memasukkan Data User'
+
+1. Buat file-file berikut ini di folder `users` mengikuti contoh di Github:<br>
+    i. `create.php`
+
+### _Testing_
+
+1. Buka halaman yang menampilkan data user, lalu isi formulir di bagian **Tambah User**
+2. Tekan tombol SAVE
+3. Data yang baru seharusnya muncul di bagian **Data User**
+
+## Fitur 'Mengubah Data User'
+
+1. Buat file-file berikut ini di folder `users` mengikuti contoh di Github:<br>
+    i. `edit.php`<br>
+    ii. `update.php`
+
+### _Testing_
+
+1. Buka halaman yang menampilkan data user, lalu klik tombol EDIT di salah satu baris data<br>
+![users_edit](./assets/users_edit.png)
+2. Coba ubah formulir di bagian **Edit User**, lalu tekan SAVE<br>
+![users_edit_form](./assets/users_edit_form.png)
+3. Data yang telah diubah seharusnya muncul di bagian **Data User**
+
+## Fitur 'Menghapus Data User'
+
+1. Buat file-file berikut ini di folder `users` mengikuti contoh di Github:<br>
+    i. `delete.php`
+
+### _Testing_
+
+1. Buka halaman yang menampilkan data user, lalu klik tombol DELETE di salah satu baris data<br>
+2. User yang dihapus akan hilang dari **Data User**
+3. Jika user yang dihapus sedang login, seharusnya muncul "User sedang aktif"
