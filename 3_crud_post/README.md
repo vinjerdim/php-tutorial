@@ -36,3 +36,7 @@
 ![post_edit_form_2](./assets/post_edit_form_2.png)
 ![post_edit_table](./assets/post_edit_table.png)
 
+## Fitur 'Menghapus Post'
+1. Salin file `delete.php` dari folder `users` ke dalam folder `posts`
+2. Ubah isi `delete.php` dalam folder `posts`, agar bisa menghapus post<br>
+![posts_delete](./assets/posts_delete.png)
