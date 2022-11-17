@@ -22,3 +22,9 @@
 4. Salin file `index.php` dari folder `users` ke dalam folder `posts`
 5. Ubah isi `index.php` dalam folder `posts`, agar bisa menampilkan data berikut ini<br>
 ![posts_php](./assets/posts_php.png)
+
+## Fitur 'Menambahkan Post'
+1. Salin file `create.php` dari folder `users` ke dalam folder `posts`
+2. Ubah isi `create.php` dalam folder `posts`, agar bisa menambahkan data baru<br>
+![posts_add_form](./assets/posts_add_form.png)
+![posts_add_table](./assets/posts_add_table.png)
