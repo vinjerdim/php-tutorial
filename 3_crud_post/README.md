@@ -28,3 +28,11 @@
 2. Ubah isi `create.php` dalam folder `posts`, agar bisa menambahkan data baru<br>
 ![posts_add_form](./assets/posts_add_form.png)
 ![posts_add_table](./assets/posts_add_table.png)
+
+## Fitur 'Mengubah Post'
+1. Salin file `edit.php` dan `update.php` dari folder `users` ke dalam folder `posts`
+2. Ubah isi `edit.php` dan `update.php` dalam folder `posts`, agar bisa mengubah post<br>
+![posts_edit_form](./assets/posts_edit_form.png)
+![post_edit_form_2](./assets/post_edit_form_2.png)
+![post_edit_table](./assets/post_edit_table.png)
+
