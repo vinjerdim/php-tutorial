@@ -13,12 +13,12 @@
 
 ## Fitur 'Melihat Daftar Post'
 
-1. Buat folder `posts` di dalam folder `cms`
+1. Buat folder `posts` di dalam folder `cms`<br>
 ![posts_folder](./assets/posts_folder.png)
-2. Tambah Posts ke dalam `navbar.php`, sehingga muncul seperti ini
+2. Tambah Posts ke dalam `navbar.php`, sehingga muncul seperti ini<br>
 ![posts_menu](./assets/posts_menu.png)
-3. Buka phpmyadmin, lalu isi table `posts` dengan 1 baris data bebas
+3. Buka phpmyadmin, lalu isi table `posts` dengan 1 baris data bebas<br>
 ![posts_phpmyadmin](./assets/posts_phpmyadmin.png)
 4. Salin file `index.php` dari folder `users` ke dalam folder `posts`
-5. Ubah isi `index.php` dalam folder `posts`, agar bisa menampilkan data berikut ini
+5. Ubah isi `index.php` dalam folder `posts`, agar bisa menampilkan data berikut ini<br>
 ![posts_php](./assets/posts_php.png)
